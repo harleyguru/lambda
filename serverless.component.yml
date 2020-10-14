@@ -1,0 +1,10 @@
+name: lambda
+version: 0.1.0
+author: harleyguru
+org: c4adshm
+description: Deploys an AWS Lambda Function
+keywords: aws, serverless, lambda, function, faas
+repo: https://github.com/harleyguru/lambda
+readme: ''
+license: MIT
+src: ./src

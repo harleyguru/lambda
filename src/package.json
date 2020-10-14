@@ -1,0 +1,22 @@
+{
+  "name": "@serverless/lambda-src",
+  "version": "3.0.0",
+  "main": "./serverless.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --fix --cache"
+  },
+  "author": "C4ADS, Org.",
+  "license": "MIT",
+  "dependencies": {
+    "@serverless/aws-sdk-extra": "^0.0.2",
+    "archiver": "^3.1.1",
+    "fs-extra": "^8.1.0",
+    "globby": "^11.0.0",
+    "ramda": "^0.26.0"
+  },
+  "devDependencies": {}
+}
