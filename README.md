@@ -78,7 +78,7 @@ The `aws-lambda` component is a zero configuration component, meaning that it'll
 Here's a complete reference of the `serverless.yml` file for the `aws-lambda` component:
 
 ```yml
-component: aws-lambda # (required) name of the component. In that case, it's aws-lambda.
+component: lambda # (required) name of the component. In that case, it's aws-lambda.
 name: my-lambda # (required) name of your component instance.
 org: serverlessinc # (optional) serverless dashboard org. default is the first org you created during signup.
 app: my-app # (optional) serverless dashboard app. default is the same as the name property.
